@@ -65,6 +65,8 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+}
+.menu li {
   padding: 24px 0;
 }
 .nav-link {

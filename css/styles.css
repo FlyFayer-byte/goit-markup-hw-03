@@ -167,6 +167,9 @@ img {
   display: flex;
   gap: 24px;
 }
+.benefit-title {
+  margin-bottom: 8px;
+}
 .benefit-items {
   width: calc((100% - 72px) / 4);
 }

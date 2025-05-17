@@ -66,8 +66,6 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 332px;
 }
 .nav-link {
@@ -75,6 +73,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-link:hover {
   color: #404bbf;

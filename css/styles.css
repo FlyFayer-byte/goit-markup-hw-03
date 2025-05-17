@@ -162,7 +162,13 @@ img {
   white-space: nowrap;
   border: 0;
 }
-
+.benefit {
+  display: flex;
+  gap: 24px;
+}
+.benefit-items {
+  width: calc((100% - 72px) / 4);
+}
 /*----------Our team----------*/
 .our-team {
   background-color: #f4f4fd;

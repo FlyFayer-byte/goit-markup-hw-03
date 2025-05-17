@@ -168,7 +168,7 @@ img {
   gap: 24px;
 }
 .benefit-items {
-  flex-basis: ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 /*----------Our team----------*/
 .our-team {

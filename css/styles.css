@@ -1,20 +1,49 @@
-/* Стилі для body */
+/*----------Стилі для body----------*/
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
   font-size: 16px;
+  width: 1440px;
 }
-
-/* CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках */
+/* Обнулюємо дефолтні маржини від браузера для заголовків та параграфів тексту */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* Обнулюємо дефолтні маржини та лівий падінг для списків */
 ul {
+  margin: 0;
   list-style-type: none;
 }
+/* Скидаємо дефолтне підкреслення для посилань */
 a {
   text-decoration: none;
   color: inherit;
 }
+/* Зробимо зображення блочними елементами */
+img {
+  display: block;
+}
+/* Визначаємо ширину та падінги для контейнера */
+.container {
+  /*max-width: ;*/
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+/*----------Header----------*/
+.nav {
+  display: flex;
+  align-items: center;
+}
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -24,12 +53,17 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #2e2f42;
 }
-
-/* Navigation */
+/* Menu Nav */
+.menu {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
 .nav-link {
   font-weight: 500;
   line-height: 1.5;
@@ -42,8 +76,13 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
+/*Contacts*/
 .contact-info {
   font-style: normal;
+}
+.contacts {
+  display: flex;
+  gap: 40px;
 }
 .contact-link {
   line-height: 1.5;
@@ -56,7 +95,12 @@ a {
 .contact-link:focus {
   color: #404bbf;
 }
-/* Section 1 */
+/*Top line bg*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/*----------hero image----------*/
 .hero {
   background-color: #2e2f42;
 }
@@ -68,8 +112,6 @@ a {
   text-align: center;
   color: #ffffff;
 }
-
-/* Button */
 .button {
   background: #4d5ae5;
   font-weight: 500;
@@ -85,7 +127,8 @@ a {
 .button:focus {
   background: #404bbf;
 }
-/* Our team */
+
+/*----------Our team----------*/
 .our-team {
   background-color: #f4f4fd;
 }

@@ -62,6 +62,9 @@ img {
 .logo-studio {
   color: #2e2f42;
 }
+.logo-up {
+  margin-right: 76px;
+}
 /* Menu Nav */
 .menu {
   display: flex;
